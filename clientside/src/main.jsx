@@ -10,7 +10,7 @@ import '@mantine/core/styles.css'
 ReactDOM.createRoot(document.getElementById("root")).render(
 
 
-  <MantineProvider >
+  <MantineProvider defaultColorScheme="dark" >
     <React.StrictMode>
       <Auth0Provider
         domain="dev-l5doc43bopbeu0f8.us.auth0.com"
