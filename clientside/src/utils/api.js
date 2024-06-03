@@ -2,7 +2,7 @@ import axios from "axios";
 import dayjs from "dayjs";
 import { toast } from "react-toastify";
 export const api = axios.create({
-  baseURL: "https://full-stack-real-estate-client.vercel.app/", //specify the server here
+  baseURL: "https://full-stack-real-estate-clientside.vercel.app/", //specify the server here
 });
 //functions
 export const getAllProperties = async () => {
