@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         domain="dev-l5doc43bopbeu0f8.us.auth0.com"
         clientId="tDWD98yLqNgKn96uoxt9Ohs0ssUVTbzo"
         authorizationParams={{
-          redirect_uri: "https://full-stack-real-estate-client.vercel.app",
+          redirect_uri: "https://full-stack-real-estate-clientside.vercel.app",
         }}
         audience="http://localhost:8000"
         scope="openid profile email"
