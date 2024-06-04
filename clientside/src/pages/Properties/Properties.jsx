@@ -8,6 +8,7 @@ const Properties = () => {
   const { data, isError, isLoading } = useProperties();
 
   const [filter, setFilter] = useState(""); //by default its a empty string useState("")
+  
   if (isError) {
     return (
       <div className="wrapper">
